@@ -3,19 +3,19 @@ public class Mahasiswa{
     String nim, nama;
     double jum_putaran, jum_waktu;
     
-    public Mahasiswa(String nim, String nama, int jum_putaran, int jum_waktu){
+    public Mahasiswa(String nim, String nama, double jum_putaran, double jum_waktu){
         this.nim = nim;
         this.nama = nama;
         this.jum_putaran = jum_putaran;
         this.jum_waktu = jum_waktu;
     }
-    public double hitungJarak(Master_lapangan a){
+    public double hitungJarak(Lapangan a){
         return jum_putaran * a.hitungKeliling();
     }
     public double hitungWaktuSatuPutaran(){
         return jum_waktu / jum_putaran;
     }
-    public void cekTercepat(Master_mahasiswa a[]){
+    public void cekTercepat(Mahasiswa a[]){
         double min;
         int count = 0;
         min = a[0].hitungWaktuSatuPutaran();
