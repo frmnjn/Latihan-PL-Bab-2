@@ -1,0 +1,4 @@
+Kelas 	: lapangan, mahasiswa
+objek 	: mhs1, mhs2, mhs3, ...... , mhsn
+Atribut : panjang lapangan, lebar lapangan, luas lapangan, nim, nama, jumlah_putaran, jumlah_waktu
+Method	: hitungKeliling, hitungJarak, hitungWaktuSatuPutaran
