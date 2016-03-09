@@ -12,7 +12,7 @@ public class Mahasiswa{
     public double hitungJarak(Lapangan a){
         return jum_putaran * a.hitungKeliling();
     }
-    public double hitungWaktuSatuPutaran(){
+    private double hitungWaktuSatuPutaran(){
         return jum_waktu / jum_putaran;
     }
     public void cekTercepat(Mahasiswa a[]){
@@ -25,6 +25,6 @@ public class Mahasiswa{
                count++;
            }
         }
-        System.out.println(a[count].nama);
+        System.out.println((a[count].nama)+" memegang waktu tercepat");
     }
 }
